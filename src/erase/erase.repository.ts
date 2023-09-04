@@ -1,14 +1,13 @@
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/prisma/prisma.service';
 
-
 @Injectable()
-export class AppRepository {
+export class EraseRepository {
     constructor(private readonly prisma: PrismaService){};
 
-    delete(userId:number){
+    erase(userId:number){
         this.prisma.cards.deleteMany({
-            where: {
+            where:{
                 UserId:userId
             }
         })
@@ -27,13 +26,13 @@ export class AppRepository {
                 id:userId
             }
         })
-    };
+    }
 
-    findUserById(id: number){
-       return this.prisma.users.findFirst({
+    getById(userId: number){
+        return this.prisma.users.findFirst({
             where: {
-                id
+                id: userId
             }
-       })
-    };
-};
+        })
+    }
+}

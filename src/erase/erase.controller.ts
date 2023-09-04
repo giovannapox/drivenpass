@@ -1,34 +1,27 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import { Controller, Post, Body, UseGuards, Request, HttpStatus } from '@nestjs/common';
 import { EraseService } from './erase.service';
 import { CreateEraseDto } from './dto/create-erase.dto';
-import { UpdateEraseDto } from './dto/update-erase.dto';
+import { AuthGuard } from 'src/guards/auth.guard';
+import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 
+@UseGuards(AuthGuard)
+@ApiTags('erase')
 @Controller('erase')
 export class EraseController {
   constructor(private readonly eraseService: EraseService) {}
-
+  
+  @ApiResponse({
+    status: HttpStatus.UNAUTHORIZED,
+    description:"If user is not logged in/invalid token"
+  })
+  @ApiResponse({
+    status: HttpStatus.CREATED,
+    description:"credentials, notes, cards and user registration successfully deleted"
+  })
+  @ApiOperation({summary:"deletion of all user information", description:"this request serves to delete credentials, notes, cards and user registration"})
   @Post()
-  create(@Body() createEraseDto: CreateEraseDto) {
-    return this.eraseService.create(createEraseDto);
-  }
-
-  @Get()
-  findAll() {
-    return this.eraseService.findAll();
-  }
-
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.eraseService.findOne(+id);
-  }
-
-  @Patch(':id')
-  update(@Param('id') id: string, @Body() updateEraseDto: UpdateEraseDto) {
-    return this.eraseService.update(+id, updateEraseDto);
-  }
-
-  @Delete(':id')
-  remove(@Param('id') id: string) {
-    return this.eraseService.remove(+id);
+  async erase(@Body() createEraseDto: CreateEraseDto, @Request() req) {
+    const userId = req.user.id;
+    return await this.eraseService.erase(userId, createEraseDto);
   }
 }
