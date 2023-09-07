@@ -9,7 +9,7 @@
   <img align="center" alt="nodejs" height="50" width="50" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg">
   <img align="center" alt="Swagger" height="50" width="50" src="https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png">
   <img align="center" alt="Wa-Jest" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
-</div><br>
+</div>
 
 ## How to run
 
