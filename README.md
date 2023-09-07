@@ -5,8 +5,11 @@ DrivenPass is an application designed for password management. Instead of rememb
 
 Below are the implemented features:
 <ul>
-<li>Sign Up</li>
-<li>Login</li>
+  <li>Sign Up</li>
+  <li>Login</li>
+  <li>Add credentials</li>
+  <li>Add Notes</li>
+  <li>Add Cards</li>
 </ul>
 
 ## Technologies
