@@ -4,7 +4,7 @@
 ## Technologies
 <div align="center" valign="top"><br>
   <img align="center" alt="Nest" height="50" width="50" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png">
-  <img align="center" alt="Swagger" height="50" width="50" src="https://leizl.gallerycdn.vsassets.io/extensions/leizl/swagger-generate-ts/0.0.10/1673338730649/Microsoft.VisualStudio.Services.Icons.Default">
+  <img align="center" alt="Swagger" height="50" width="50" src="[https://leizl.gallerycdn.vsassets.io/extensions/leizl/swagger-generate-ts/0.0.10/1673338730649/Microsoft.VisualStudio.Services.Icons.Default](https://iconduck.com/icons/28022/swagger?shared)">
 </div><br>
 ## How to run
 
