@@ -3,7 +3,7 @@
 ## About
 ## Technologies
   The following tools, frameworks and programming language were used in the construction of the project: 
-<div>
+<div align="center">
   <img align="center" alt="Ts" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
   <img align="center" alt="Nest" height="50" width="50" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png">
   <img align="center" alt="nodejs" height="50" width="50" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg">
