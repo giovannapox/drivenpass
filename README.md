@@ -7,7 +7,7 @@ Below are the implemented features:
 <ul>
   <li>Sign Up</li>
   <li>Login</li>
-  <li>Add credentials</li>
+  <li>Add Credentials</li>
   <li>Add Notes</li>
   <li>Add Cards</li>
 </ul>
