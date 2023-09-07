@@ -1,4 +1,5 @@
 # DrivenPass
+DrivenPass is an application designed for password management. Instead of remembering all your passwords, you only need to remember one, and the rest is handled by the application.
 
 ## About
 ## Technologies
