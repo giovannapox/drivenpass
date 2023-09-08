@@ -20,6 +20,7 @@ Have you ever thought about how to protect yourself from online scams? Using str
   <img align="center" alt="Nest" height="50" width="50" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png">
   <img align="center" alt="nodejs" height="50" width="50" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg">
   <img align="center" alt="Swagger" height="50" width="50" src="https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png">
+  <img align="center" alt="Prisma" height="50" width="50" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png">
   <img align="center" alt="Wa-Jest" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
 </div>
 
