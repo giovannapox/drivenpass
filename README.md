@@ -6,13 +6,16 @@ DrivenPass is an application designed for password management. Instead of rememb
 Have you ever thought about how to protect yourself from online scams? Using strong and secure passwords is the best way to do it, but how can you remember random numbers and letters for every password you need to create? DrivenPass solves your problems – with this app, you can safely store all your passwords, and you'll only need to remember the DrivenPass password. It's a real lifesaver. The following features are listed below:
 
 <ul>
-  <li>Sign Up</li>
+  <details>
+    <summary>
+      <li>Sign Up</li>
+    </summary>
+  </details>
   <li>Login</li>
   <li>Add Credentials</li>
   <li>Add Notes</li>
   <li>Add Cards</li>
 </ul>
-
 ## Technologies
   The following tools, frameworks and programming language were used in the construction of the project: 
 <div align="center">
