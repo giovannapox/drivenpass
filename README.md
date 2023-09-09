@@ -23,7 +23,7 @@ Have you ever thought about how to protect yourself from online scams? Using str
   <img align="center" alt="Prisma" height="50" width="50" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png">
   <img align="center" alt="Wa-Jest" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
 </div>
-
+<details>
 ## How to run
 
 1. Clone this repository
@@ -55,4 +55,4 @@ npm run test:e2e
 # test coverage
 npm run test:cov
 ```
-
+</details>
