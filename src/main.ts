@@ -8,10 +8,10 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.useGlobalPipes(new ValidationPipe());
   const config = new DocumentBuilder()
-    .setTitle('Tweetero - Rest API')
-    .setDescription('Tweetero API description')
+    .setTitle('DrivenPass - Rest API')
+    .setDescription('DrivenPass API description')
     .setVersion('1.0')
-    .addTag('tweetero')
+    .addTag('DrivenPass')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);

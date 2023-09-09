@@ -14,4 +14,4 @@ import { EraseModule } from './erase/erase.module';
   providers: [AppService],
 })
 
-export class AppModule {}
+export class AppModule {};
