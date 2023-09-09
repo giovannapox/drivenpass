@@ -24,9 +24,11 @@ Have you ever thought about how to protect yourself from online scams? Using str
   <img align="center" alt="Wa-Jest" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
 </div>
 <details>
-  <summary>
-    ## How to run
-  </summary>
+<summary>
+  
+    # How to run
+    
+</summary>
 1. Clone this repository
 2. Install Dependencies
 ```bash
