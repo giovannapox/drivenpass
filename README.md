@@ -16,12 +16,12 @@ Have you ever thought about how to protect yourself from online scams? Using str
 ## Technologies
   The following tools, frameworks and programming language were used in the construction of the project: 
 <div align="center">
-  <img align="center" alt="Ts" height="50" width="50" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img align="center" alt="Nest" height="50" width="50" src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
-  <img align="center" alt="nodejs" height="50" width="50" src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
-  <img align="center" alt="Swagger" height="50" width="50" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
-  <img align="center" alt="Prisma" height="50" width="50" src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white">
-  <img align="center" alt="Wa-Jest" height="50" width="50" src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white">
+  <img align="center" alt="Ts" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img align="center" alt="Nest" src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
+  <img align="center" alt="nodejs" src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img align="center" alt="Swagger" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
+  <img align="center" alt="Prisma" src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white">
+  <img align="center" alt="Wa-Jest" src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white">
 </div>
 <details>
 <summary>    
