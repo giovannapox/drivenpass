@@ -10,6 +10,7 @@ Have you ever thought about how to protect yourself from online scams? Using str
     <summary>
       Sign Up
     </summary>
+    <br>
     <li>
       O usuário deve fornecer um e-mail válido e uma senha para poder criar um usuário. Se o e-mail já estiver em uso, a aplicação não pode criar a conta (409 Conflict). A senha precisa ser segura, ou seja, pelo menos 10 caracteres, 1 número, 1          letra minúscula, 1 letra maiúscula e um 1 caractere especial (400 Bad Request). 
     </li>
