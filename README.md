@@ -22,15 +22,12 @@ Have you ever thought about how to protect yourself from online scams? Using str
   <img align="center" alt="Swagger" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
   <img align="center" alt="Prisma" src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white">
   <img align="center" alt="Wa-Jest" src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white">
+  <img align="center" alt="Wa-Jest" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
 </div>
-<details>
-<summary>    
+
+## How to run
   
-  
-# How to run
-  
-  
-</summary>
+
 1. Clone this repository
 2. Install Dependencies
 ```bash
@@ -60,4 +57,3 @@ npm run test:e2e
 # test coverage
 npm run test:cov
 ```
-</details>
