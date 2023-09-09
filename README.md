@@ -6,32 +6,22 @@ DrivenPass is an application designed for password management. Instead of rememb
 Have you ever thought about how to protect yourself from online scams? Using strong and secure passwords is the best way to do it, but how can you remember random numbers and letters for every password you need to create? DrivenPass solves your problems – with this app, you can safely store all your passwords, and you'll only need to remember the DrivenPass password. It's a real lifesaver. The following features are listed below:
 
 <ul>
-  <details>
-    <summary>
-      Sign Up
-    </summary>
-    <br>
-    <li>
-      O usuário deve fornecer um e-mail válido e uma senha para poder criar um usuário. Se o e-mail já estiver em uso, a aplicação não pode criar a conta (409 Conflict). A senha precisa ser segura, ou seja, pelo menos 10 caracteres, 1 número, 1          letra minúscula, 1 letra maiúscula e um 1 caractere especial (400 Bad Request). 
-    </li>
-    <li>
-      Por ser um dado extremamente sensível, a senha precisa ir para o banco criptografada. Utilize a biblioteca [bcrypt](https://www.npmjs.com/package/bcrypt) para isso.
-    </li>
-  </details>
-  <li>Login</li>
+  <li>Sign Up</li>
+  <li>Login </li>
   <li>Add Credentials</li>
   <li>Add Notes</li>
   <li>Add Cards</li>
 </ul>
+
 ## Technologies
   The following tools, frameworks and programming language were used in the construction of the project: 
 <div align="center">
-  <img align="center" alt="Ts" height="50" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Nest" height="50" width="50" src="https://static-00.iconduck.com/assets.00/nestjs-icon-2048x2040-3rrvcej8.png">
-  <img align="center" alt="nodejs" height="50" width="50" src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg">
-  <img align="center" alt="Swagger" height="50" width="50" src="https://static-00.iconduck.com/assets.00/swagger-icon-512x512-halz44im.png">
-  <img align="center" alt="Prisma" height="50" width="50" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_light_prisma_icon_130444.png">
-  <img align="center" alt="Wa-Jest" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg">
+  <img align="center" alt="Ts" height="50" width="50" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img align="center" alt="Nest" height="50" width="50" src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white">
+  <img align="center" alt="nodejs" height="50" width="50" src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+  <img align="center" alt="Swagger" height="50" width="50" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
+  <img align="center" alt="Prisma" height="50" width="50" src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white">
+  <img align="center" alt="Wa-Jest" height="50" width="50" src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white">
 </div>
 <details>
 <summary>    
