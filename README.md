@@ -8,8 +8,14 @@ Have you ever thought about how to protect yourself from online scams? Using str
 <ul>
   <details>
     <summary>
-      <li>Sign Up</li>
+      Sign Up
     </summary>
+    <li>
+      O usuário deve fornecer um e-mail válido e uma senha para poder criar um usuário. Se o e-mail já estiver em uso, a aplicação não pode criar a conta (409 Conflict). A senha precisa ser segura, ou seja, pelo menos 10 caracteres, 1 número, 1          letra minúscula, 1 letra maiúscula e um 1 caractere especial (400 Bad Request). 
+    </li>
+    <li>
+      Por ser um dado extremamente sensível, a senha precisa ir para o banco criptografada. Utilize a biblioteca [bcrypt](https://www.npmjs.com/package/bcrypt) para isso.
+    </li>
   </details>
   <li>Login</li>
   <li>Add Credentials</li>
